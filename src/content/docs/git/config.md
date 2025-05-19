@@ -1,4 +1,8 @@
-# ✅ 1. **Generar una clave SSH (si no la tienes)**
+---
+title: "Configuración inicial"
+description: "Configurar ssh, user y mail"
+---
+## ✅ 1. **Generar una clave SSH (si no la tienes)**
 
 Abre una terminal y ejecuta:
 
@@ -77,7 +81,6 @@ ssh -T git@github.com
 
 Deberías ver algo como:
 
-```
+```shell
 Hi tu-usuario! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-

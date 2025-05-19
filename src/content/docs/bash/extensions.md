@@ -1,5 +1,7 @@
-# 🧩 Copiar extensiones de VS Code a VSCodium
-
+---
+title: " 🧩 Copiar extensiones de VS Code a VSCodium"
+description: "Instalar extensiones en Codium con bash"
+---
 ## 📦 1. Exportar extensiones desde Visual Studio Code
 
 ```bash

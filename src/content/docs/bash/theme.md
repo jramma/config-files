@@ -1,5 +1,7 @@
-# 🐚 Guía rápida: Instalar y configurar Bash-it en Debian
-
+---
+title: " 🐚 Guía rápida: Instalar y configurar Bash-it en Debian"
+description: "Instalar temas en bash"
+---
 ## ✅ 1. Instalar Bash-it
 
 ```bash
