@@ -1,5 +1,5 @@
 ---
-title: "Configuración inicial"
+title: "🪡 Configuración inicial"
 description: "Configurar ssh, user y mail"
 ---
 ## ✅ 1. **Generar una clave SSH (si no la tienes)**
