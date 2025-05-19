@@ -1,13 +1,17 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://jramma.github.io",
+	base: "https://github.com/jramma/jramma.github.io",
 	integrations: [
 		starlight({
-			title: 'Jramma Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/jramma' }],
+			title: "Jramma Docs",
+			social: [
+				{ icon: "github", label: "GitHub", href: "https://github.com/jramma" },
+			],
 			sidebar: [
 				// {
 				// 	label: 'Bash',
@@ -19,16 +23,16 @@ export default defineConfig({
 				// 	],
 				// },
 				{
-					label: 'Git',
-					autogenerate: { directory: 'git' },
+					label: "Git",
+					autogenerate: { directory: "git" },
 				},
 				{
-					label: 'Bash',
-					autogenerate: { directory: 'bash' },
+					label: "Bash",
+					autogenerate: { directory: "bash" },
 				},
 				{
-					label: 'Codium',
-					autogenerate: { directory: 'codium' },
+					label: "Codium",
+					autogenerate: { directory: "codium" },
 				},
 			],
 		}),
