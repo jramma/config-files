@@ -2,7 +2,7 @@
 title: "🪡 Configuración inicial"
 description: "Configurar ssh, user y mail"
 ---
-## ✅ 1. **Generar una clave SSH (si no la tienes)**
+##  1. **Generar una clave SSH (si no la tienes)**
 
 Abre una terminal y ejecuta:
 
@@ -20,7 +20,7 @@ Presiona Enter para aceptar la ruta por defecto (`~/.ssh/id_ed25519`) y configur
 
 ---
 
-## ✅ 2. **Agregar la clave al agente SSH**
+##  2. **Agregar la clave al agente SSH**
 
 Primero inicia el agente (si no está activo):
 
@@ -38,7 +38,7 @@ ssh-add ~/.ssh/id_ed25519
 
 ---
 
-## ✅ 3. **Copiar la clave pública**
+##  3. **Copiar la clave pública**
 
 Para copiar la clave SSH pública:
 
@@ -60,7 +60,7 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 ---
 
-## ✅ 4. **Añadir la clave en GitHub**
+##  4. **Añadir la clave en GitHub**
 
 1. Entra a [https://github.com](https://github.com)
 2. Ve a tu perfil (arriba a la derecha) → **Settings**
@@ -71,7 +71,7 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 ---
 
-## ✅ 5. **Probar conexión**
+##  5. **Probar conexión**
 
 Ejecuta en la terminal:
 

@@ -2,7 +2,7 @@
 title: " 🐚 Personalizar bash"
 description: "Guía rápida: Instalar y configurar Bash-it en Debian"
 ---
-## ✅ 1. Instalar Bash-it
+##  1. Instalar Bash-it
 
 ```bash
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
@@ -13,7 +13,7 @@ Durante la instalación, el script modificará tu `~/.bashrc` automáticamente p
 
 ---
 
-## ✅ 2. Cambiar el tema (ejemplo: `metal`)
+##  2. Cambiar el tema (ejemplo: `metal`)
 
 Edita tu archivo `~/.bashrc`:
 
@@ -41,7 +41,7 @@ export BASH_IT_THEME='metal'
 
 ---
 
-## ✅ 3. Aplicar cambios
+##  3. Aplicar cambios
 
 Recarga Bash con:
 
@@ -51,7 +51,7 @@ source ~/.bashrc
 
 ---
 
-## ✅ 4. Ver temas disponibles
+##  4. Ver temas disponibles
 
 ```bash
 ls ~/.bash_it/themes
@@ -65,7 +65,7 @@ bash-it show themes
 
 ---
 
-## ✅ 5. Verificar tema actual
+##  5. Verificar tema actual
 
 ```bash
 echo $BASH_IT_THEME

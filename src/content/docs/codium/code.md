@@ -20,7 +20,7 @@ code --list-extensions > extensions.txt
 codium --install-extension $(cat extensions.txt)
 ```
 
-#### ✅ Método recomendado: **uno por uno** con un bucle
+####  Método recomendado: **uno por uno** con un bucle
 
 ```bash
 while read extension; do
