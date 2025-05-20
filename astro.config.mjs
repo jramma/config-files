@@ -1,9 +1,9 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 
 export default defineConfig({
-	site: "https://jramma.github.io", 
-	base: "/", 
+	site: "https://jramma.github.io",
+	base: "/",
 	integrations: [
 		starlight({
 			title: "Jramma Docs",
@@ -14,6 +14,7 @@ export default defineConfig({
 				{ label: "Git", autogenerate: { directory: "git" } },
 				{ label: "Bash", autogenerate: { directory: "bash" } },
 				{ label: "Codium", autogenerate: { directory: "codium" } },
+				{ label: "Android", autogenerate: { directory: "android" } },
 			],
 		}),
 	],
