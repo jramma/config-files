@@ -15,6 +15,8 @@ export default defineConfig({
 				{ label: "Bash", autogenerate: { directory: "bash" } },
 				{ label: "Codium", autogenerate: { directory: "codium" } },
 				{ label: "Android", autogenerate: { directory: "android" } },
+				{ label: "Photo", autogenerate: { directory: "photo" } },
+
 			],
 		}),
 	],
