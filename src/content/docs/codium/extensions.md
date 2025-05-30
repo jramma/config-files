@@ -10,7 +10,6 @@ astro-build.astro-vscode
 atommaterial.a-file-icon-vscode
 attilabuti.vscode-mjml
 austenc.tailwind-docs
-biomejs.biome
 bmewburn.vscode-intelephense-client
 bradlc.vscode-tailwindcss
 christian-kohler.npm-intellisense
